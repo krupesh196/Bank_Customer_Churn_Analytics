@@ -1,0 +1,9 @@
+POWER BI DASHBOARD
+KPIs: Customers, Churned Customers, Churn Rate, Average Balance
+Charts: Churn by Country, Age Group, Number of Products, Active Member
+Slicers: Country, Gender, Age, Products
+DAX:
+Customers = DISTINCTCOUNT(bank_customers[CustomerID])
+Churned Customers = CALCULATE([Customers],bank_customers[Churn]=1)
+Churn Rate = DIVIDE([Churned Customers],[Customers])
+Avg Balance = AVERAGE(bank_customers[Balance])

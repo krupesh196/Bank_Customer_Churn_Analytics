@@ -1,0 +1,2 @@
+EXCEL TASKS
+Convert CSV to Table; create Age Group; calculate churn rate with COUNTIFS; PivotTables by Country, Products and Active Member; conditional formatting; dashboard.
